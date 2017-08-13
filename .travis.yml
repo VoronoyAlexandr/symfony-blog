@@ -28,6 +28,7 @@ matrix:
 # Define an environment variable
 env:
   - SYMFONY_VERSION="3.0.*" DB=mysql
+script: vendor/bin/phpunit
 
 # Update composer
 before-install:
