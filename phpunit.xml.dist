@@ -10,12 +10,11 @@
     <php>
         <ini name="error_reporting" value="-1" />
         <server name="KERNEL_DIR" value="app" />
-        <server name="KERNEL_CLASS" value="AppKernel" />
     </php>
 
     <testsuites>
         <testsuite name="Project Test Suite">
-            <directory>tests</directory>
+            <directory>src/Blogger/BlogBundle</directory>
         </testsuite>
     </testsuites>
 
